@@ -1,64 +1,68 @@
 # JavaLand 2021 – Remote Mob Programming / Setup-Check
 
-At [JavaLand 2021](https://www.javaland.eu/) there will be some online
-[community activities](https://www.javaland.eu/de/programm/community-aktivitaeten/).
-One of them is a remote mob programming dojo, where some experienced mob programming facilitators
-will help you getting started with this programming practice.
+[![de](https://img.shields.io/badge/lang-de-red.svg)](README.md)
+[![en](https://img.shields.io/badge/lang-en-green.svg)](README.en.md)
 
-If you'd like to attend the mob programming dojo, please make sure you read and follow the
-instructions below to check your local setup well in advance *before the event.* Thank you!
+Beim [JavaLand 2021](https://www.javaland.eu/) wird es diverse
+Online-[Community-Aktivitäten](https://www.javaland.eu/de/programm/community-aktivitaeten/) geben.
+Eine davon ist ein Remote-Mob-Programming-Dojo, bei dem Dir erfahrene Mob-Programming-Moderatoren
+helfen, diese Programmierpraktik kennenzulernen.
 
-Wednesday, March 17, room "HiLow"
-- 16:30 moderators (facilitators) will be in the room; we can address setup problems there
-- 17:00 mob programming sessions start; *no more setup*
-- 19:00 finish of JavaLand 2021 mob programming dojos
+Wenn Du beim Mob-Programming-Dojo mitmachen möchtest, lies Dir bitte die folgenden Hinweise durch
+und prüfe Deine lokale Konfiguration wie unten beschrieben – beides bitte rechtzeitig *vor* dem
+Dojo. Danke :-)
 
-You'll receive an e-mail from JavaLand on how to access the virtual room.
+Mittwoch, 17. März, Raum "HiLow"
+- 16:30 – Die Moderatoren werden im Raum sein und wir können eventuelle Setup-Probleme klären.
+- 17:00 – Das Mob-Programming-Dojo beginnt (Dein Setup muss davor funktionsfähig sein).
+- 19:00 – Ende des Mob-Programming-Dojos.
 
-We'll have 20-24 seats in up to 4 mob teams, so better be quick – first come, first served.
+Wenn Du zum JavaLand angemeldet bist, erhältst Du vom Veranstalter eine E-Mail, wie Du den virtuellen
+Raum betreten kannst.
 
-Note: While these setup instructions are in English, the dojos will be held in German
-(unless there is enough request for an English session).
+Wir können 20-24 Plätze für bis zu 4 Mob-Teams vergeben. Also schnell sein – wer zuerst kommt, gewinnt.
 
 
 ## Software
 
-You'll need
+Du brauchst
 
-- 'mob' tool from https://mob.sh
-- JDK 11, e.g. from https://adoptopenjdk.net/
-- an IDE of your choice (IntelliJ IDEA is recommended)
+- das "mob" Kommandozeilen-Tool von https://mob.sh
+- JDK 11, z.B. von https://adoptopenjdk.net/
+- eine IDE Deiner Wahl (wir empfehlen IntelliJ IDEA)
 
 
 ## Hardware
 
-During the remote mob programming session the small teams will work with their cameras and microphones
-switched *on*. So please make sure you're using a suitable
-- web cam
-- microphone & speakers *or* headset
+Bei den Remote-Mob-Programming-Dojos werden die kleinen Teams mit eingeschalteter Kamera und Mikrofon
+arbeiten. Prüfe daher bitte vor dem Dojo, ob Du geeignete Geräte angeschlossen hast:
+- Webcam
+- Mikrofon & Lautsprecher (ohne Hall und Störgeräusche) *oder* ein Headset
 
 
-## Check that everything works on your machine
+## Probiere bitte aus, dass auf Deinem Rechner alles funktioniert
 
-1. Run `mob --version` on your console. It should output `v1.3.0` (or newer).
-2. Run `mob moo` on your console. You should hear a 'moo' sound.
-3. Check out this git repository on your machine.
-4. Run `./mvnw test` in the checked out git repository. The one and only test should be green.
-5. Import the project in your IDE and run the tests.
+1. Rufe `mob --version` in Deiner Konsole auf. Es sollte `v1.3.0` (oder neuer) ausgeben.
+2. Rufe `mob moo` in Deiner Konsole auf. Du solltest ein "Muh"-Geräusch hören.
+3. Checke dieses Git-Repository auf Deinem Rechner aus.
+4. Rufe `./mvnw test` im ausgecheckten Git-Repository auf. Der einzige Test sollte grün sein.
+5. Importiere das Projekt in Deine IDE und lass die Tests laufen.
 
-That's it, you're prepared for the mob programming dojo at JavaLand 2021! At the beginning of your
-mob session your moderator will give you access to the actual repository being used (i.e. the
-repository where the `mob` tool can push your changes).
+Das war es auch schon – Du bist vorbereitet, um am Mob-Programming-Dojo beim JavaLand 2021
+teilzunehmen! Am Anfang des Dojos wird Dir Dein Moderator Zugriff auf das tatsächlich verwendete
+Git-Repository geben, also auf das Repository, in das das `mob`-Tool Deine Änderungen pushen kann.
 
-Oh, one more thing (two things, actually ;-):
-- You will need a [GitHub](https://github.com/) account as our common repository will be hosted there.
-  If you haven't one so far, please sign up at GitHub *well before* the mob programming dojo.
-- Please make sure you have access to the e-mail account linked to your GitHub account. At the beginning
-  of the mob session you will receive an e-mail from GitHub asking you to become a collaborator on our
-  common repository.
+Eine Sache noch (oder eher zwei ;-):
+- Du brauchst einen Account bei [GitHub](https://github.com/), weil auch das beim Dojo verwendete
+  Repository dort gehostet ist. Wenn Du noch keinen Account hast, melde Dich bitte bei GitHub
+  *rechtzeitig vor* dem Mob-Programming-Dojo an.
+- Stell bitte sicher, dass Du Zugriff auf das E-Mail-Konto hast, das mit Deinem GitHub-Account
+  verknüpft ist. Am Anfang des Mob-Dojos wirst Du eine E-Mail von GitHub bekommen, in der Du
+  bestätigen musst, dass Du schreibenden Zugriff auf unser gemeinsames Dojo-Repository haben willst.
 
 
-## Further information
+## Weitere Informationen
+
 - https://www.remotemobprogramming.org/
 - https://effectivehomeoffice.com/
-- [(Remote) Mob Programming – Building Teams and Keeping Teams Together](https://www.youtube.com/watch?v=CeWmy1Nd8L4&t=338s) (video from Java User Group Switzerland)
+- [Mob-Programming. Zusammen lernen. Zusammen liefern!](https://www.youtube.com/watch?v=WNz8txII7Wo) (Video von der W-JAX 2019)
